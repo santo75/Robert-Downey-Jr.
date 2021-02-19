@@ -1,0 +1,86 @@
+body {
+	background-image: url("../assets/images/arc-reactor2.jpg");
+	height: 100%;
+	background-size: cover;
+}
+.bg-container {
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color: rgb(174, 174, 223);
+	font-size: 18px;
+	font-weight: 500;
+}
+@keyframes changeColour {
+	from {
+		color: #80120a;
+		text-shadow: 2px 2px 5px white;
+	}
+	to {
+		color: blue;
+		text-shadow: 2px 2px 5px white;
+		transform: translateX(100px);
+	}
+}
+.page-heading {
+	color: #80120a;
+	font-size: 90px;
+	font-family: "Lobster Two", cursive;
+	text-shadow: 2px 2px 5p white;
+	animation-name: changeColour;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+
+@keyframes slide {
+	from {
+		box-shadow: 4px 4px 20px #80120a;
+	}
+	to {
+		transform: translateX(-100px);
+		border-radius: 50%;
+		box-shadow: 4px 4px 20px rgb(6, 6, 228);
+	}
+}
+.top-image {
+	border-radius: 4px;
+	box-shadow: 4px 4px 20px #80120a;
+	animation-name: slide;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+
+.small-view-heading {
+	background-image: "";
+	height: 100%;
+	background-color: #80120a;
+	padding: 40px 0px 25px 40px;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+.small-heading {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.heading-image {
+	height: 200px;
+	margin-right: -50px;
+	border-radius: 0px 8px 8px 0px;
+}
+.triangle {
+	color: rgb(185, 12, 12);
+}
+.iron-man {
+	color: #80120a;
+	font-weight: bold;
+}
+.read-more:hover {
+	cursor: pointer;
+}
+.read-more {
+	color: blue;
+	text-decoration: underline;
+}
