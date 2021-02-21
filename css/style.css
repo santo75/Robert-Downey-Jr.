@@ -128,7 +128,9 @@ body {
 	text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
 		0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
 }
-
+.footer-container {
+	background-color: #330906;
+}
 .footer-text {
 	color: blue;
 	letter-spacing: 2px;
