@@ -1,6 +1,7 @@
 body {
 	background-image: url("../assets/images/arc-reactor2.jpg");
-	height: 100%;
+	height: 100vh;
+	width: 100vw;
 	background-size: cover;
 }
 .bg-container {
@@ -39,12 +40,11 @@ body {
 	}
 	to {
 		transform: translateX(-100px);
-		border-radius: 50%;
 		box-shadow: 4px 4px 20px rgb(6, 6, 228);
 	}
 }
 .top-image {
-	border-radius: 4px;
+	border-radius: 50%;
 	box-shadow: 4px 4px 20px #80120a;
 	animation-name: slide;
 	animation-duration: 20s;
@@ -63,7 +63,8 @@ body {
 }
 .small-heading {
 	margin-left: 30px;
-	margin-top: 30px;
+	margin-top: 25px;
+	color: white;
 }
 .heading-image {
 	height: 200px;
@@ -83,4 +84,54 @@ body {
 .read-more {
 	color: blue;
 	text-decoration: underline;
+}
+.life-time {
+	font-size: 38px;
+	color: #5fc9f3;
+}
+.no-bullets {
+	list-style-type: none;
+}
+.box {
+	border: 1px solid rgb(136, 135, 221);
+	border-radius: 8px;
+	padding: 0px 8px 8px 8px;
+	font-size: 13px;
+	text-align: center;
+}
+.title {
+	margin: 0px 0px 8px 0px;
+}
+.roles-image {
+	height: 100px;
+	width: 100px;
+	border-radius: 8px;
+	border: 1px solid rgb(136, 135, 221);
+}
+.crousel-caption {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	color: red;
+	text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
+		0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+}
+.carousel-image {
+	height: 400px;
+	border-radius: 8px;
+}
+.awards {
+	font-size: 20px;
+}
+.awards:hover {
+	color: red;
+	text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
+		0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+}
+.footer-container {
+	background-color: #330906;
+}
+.footer-text {
+	color: blue;
+	letter-spacing: 2px;
 }
