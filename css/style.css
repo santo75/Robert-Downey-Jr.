@@ -104,6 +104,11 @@ body {
 	font-size: 13px;
 	text-align: center;
 }
+.box:hover {
+	background-color: #1f09b0;
+	color: white;
+	border: 1px solid white;
+}
 .title {
 	margin: 0px 0px 8px 0px;
 }
