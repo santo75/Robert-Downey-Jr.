@@ -55,20 +55,25 @@ body {
 
 .small-view-heading {
 	background-image: "";
-	height: 100%;
+	height: 300px;
 	background-color: #80120a;
-	padding: 40px 0px 25px 40px;
+	padding: 40px 0px 0px 10px;
 	border-radius: 8px;
 	margin-top: 20px;
+	width: 93%;
 }
 .small-heading {
 	margin-left: 30px;
-	margin-top: 25px;
+	margin-top: 10px;
 	color: white;
 }
 .heading-image {
+	position: absolute;
+	right: 0;
+	top: 85px;
+	z-index: 1;
 	height: 200px;
-	margin-right: -50px;
+	border: 1px solid blue;
 	border-radius: 0px 8px 8px 0px;
 }
 .triangle {
