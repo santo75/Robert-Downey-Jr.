@@ -1,5 +1,5 @@
 body {
-	background-image: url("../assets/images/arc-reactor2.jpg");
+	background-image: url("../assets/images/arc-reactor1.png");
 	height: 100%;
 	width: 100%;
 	background-size: cover;
@@ -105,16 +105,17 @@ body {
 	text-align: center;
 }
 .box:hover {
-	background-color: #1f09b0;
+	background-color: red;
 	color: white;
 	border: 1px solid white;
 }
 .title {
 	margin: 0px 0px 8px 0px;
+	font-size: medium;
 }
 .roles-image {
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	border-radius: 8px;
 	border: 1px solid rgb(136, 135, 221);
 }
@@ -145,4 +146,7 @@ body {
 .footer-text {
 	color: blue;
 	letter-spacing: 2px;
+}
+.footer-text:hover {
+	color: red;
 }
